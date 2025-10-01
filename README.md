@@ -25,24 +25,47 @@ Follow along and complete the assignments step by step.
 
 ---
 
-## 📂 Repository Structure
 
-Each participant has a separate folder where they can submit their completed assignments:
+
+
+
+## 📜 Rules
+
+* ❌ **No ChatGPT or AI tools** (pure hands-on coding only).
+* ❌ **No VS Code extensions** for auto-completion or design help.
+* ✅ **Finger-to-keyboard coding only** – this is a practice challenge.
+* ✅ Share doubts and discuss concepts with teammates instead of relying on AI.
+
+---
+
+## 📂 Example Folder Structure
+
+Here’s an example of how the folders should look for one participant (same format for everyone):
 
 ```
-
-HTML-CSS-COURSE/
-├── Aarya/
-├── Datta/
+super20-html-css-course/
 ├── prathmesh/
-├── Shruti/
-├── Siddhi-Bodake/
-└── Siddhi-kawade/
-
+│   ├── Day-1/
+│   │   ├── Lesson-1/
+│   │   │   ├── l1a.html
+│   │   │   └── l1a.css
+│   │   └── Lesson-2/
+│   │       ├── l2a.html
+│   │       └── l2a.css
+│   └── Day-2/
+│       ├── Lesson-3/
+│       │   ├── l3a.html
+│       │   └── l3a.css
+│       └── Lesson-4/
+│           ├── l4a.html
+│           └── l4a.css
 ```
 
-- Each folder should contain the assignment files completed by the respective participant.
-- You can add images, screenshots, or notes to showcase your work.
+
+
+
+
+
 
 ---
 
@@ -51,8 +74,10 @@ HTML-CSS-COURSE/
 1. Watch the tutorial video linked above.
 2. Complete all the assignments within the given time.
 3. Add your files in your respective folder.
-4. Commit and push your changes to the repository.
+4. **Push your changes to your feature branch and raise a Pull Request (PR) against the `main` branch.**
 5. Help others and discuss solutions in a supportive environment.
+
+
 
 ---
 
