@@ -1,13 +1,179 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8"> <!-- Character encoding -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsive design -->
+  <title>My Bio & HTML Feature Reference</title>
+  <link rel="icon" href="https://via.placeholder.com/16" type="image/png"> <!-- Favicon -->
+
+  <!-- Internal CSS for styling demo -->
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; background: #f4f4f9; color: #333; }
+    header { background: linear-gradient(90deg, #4CAF50, #2196F3); color: white; padding: 20px; text-align: center; }
+    nav { background: #333; padding: 10px; text-align: center; }
+    nav a { color: white; margin: 0 10px; text-decoration: none; }
+    nav a:hover { text-decoration: underline; }
+    section { padding: 20px; }
+    article { background: white; margin: 20px 0; padding: 15px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+    footer { background: #222; color: white; text-align: center; padding: 15px; }
+    img { max-width: 150px; border-radius: 10px; }
+    table, th, td { border: 1px solid #333; border-collapse: collapse; padding: 8px; }
+    ul, ol { margin-left: 20px; }
+    code { background: #eee; padding: 2px 5px; border-radius: 4px; }
+    marquee { color: red; font-weight: bold; }
+    .highlight { color: #e91e63; font-weight: bold; }
+    progress, meter { width: 100%; height: 20px; }
+  </style>
 </head>
 <body>
-    <h1>Hello Everyone! I an Sneha.</h1>
 
-    </h1>
+  <header>
+    <h1>🌟 Sneha Gangapure - Bio & HTML/CSS Reference 🌟</h1> <!-- Main heading -->
+    <p>Quick recap page with almost every HTML & CSS feature</p>
+  </header>
+
+  <nav>Navbar
+    <!-- Navigation bar -->
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#media">Media</a>
+    <a href="#forms">Forms</a>
+    <a href="#extras">Extras</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <main>
+    <section id="about">
+      <article>
+        <h2>About Me</h2>
+        <p>Hello! I’m <b>Sneha</b>, an aspiring <i>software developer</i> with interests in <u>technology</u> and <mark>self-growth</mark>.</p>
+        <p>Fun fact: H<sub>2</sub>O is water, and E = mc<sup>2</sup>.</p>
+        <p><abbr title="HyperText Markup Language">HTML</abbr> is the backbone of the web.</p>
+        <center>This line is inside a <code>&lt;center&gt;</code> tag (deprecated).</center>
+        <marquee>Scrolling marquee text (deprecated, not for real use)</marquee>
+        <blockquote>“Discipline is the bridge between goals and accomplishment.”</blockquote>
+        <q>This is a short inline quote.</q>
+        <pre>Preformatted text:
+Line 1
+  Line 2 (indented)
+    Line 3</pre>
+      </article>
+    </section>
+
+    <section id="skills">
+      <article>
+        <h2>My Skills</h2>
+        <ul>
+          <li>Web Dev</li>
+          <li>Java</li>
+          <li>SQL</li>
+        </ul>
+        <ol>
+          <li>Discipline</li>
+          <li>Creativity</li>
+        </ol>
+        <dl>
+          <dt>HTML</dt><dd>Structure of web</dd>
+          <dt>CSS</dt><dd>Styling</dd>
+        </dl>
+
+        <table>
+          <caption>Skill Ratings</caption>
+          <thead><tr><th>Skill</th><th>Rating</th></tr></thead>
+          <tbody>
+            <tr><td>Web Dev</td><td>⭐⭐⭐⭐</td></tr>
+            <tr><td>Java</td><td>⭐⭐⭐</td></tr>
+          </tbody>
+          <tfoot><tr><td colspan="2">End of table</td></tr></tfoot>
+        </table>
+
+        <p>Progress in Web Dev:</p>
+        <progress value="70" max="100"></progress>
+        <p>Knowledge Meter:</p>
+        <meter value="0.6">60%</meter>
+      </article>
+    </section>
+
+    <section id="media">
+      <article>
+        <h2>Media Examples</h2>
+        <figure>
+          <img src="https://via.placeholder.com/150" alt="Profile Pic">
+          <figcaption>My photo placeholder</figcaption>
+        </figure>
+        <video controls width="250">
+          <source src="sample.mp4" type="video/mp4">Video not supported.
+        </video>
+        <audio controls>
+          <source src="sample.mp3" type="audio/mpeg">Audio not supported.
+        </audio>
+        <iframe src="https://www.example.com" width="300" height="150" title="Iframe Example"></iframe>
+        <svg width="100" height="100">
+          <circle cx="50" cy="50" r="40" stroke="blue" stroke-width="2" fill="lightblue" />
+        </svg>
+        <canvas id="myCanvas" width="100" height="100" style="border:1px solid #000;"></canvas>
+        <script>
+          // Draw on canvas
+          const c = document.getElementById("myCanvas");
+          const ctx = c.getContext("2d");
+          ctx.fillStyle = "green";
+          ctx.fillRect(10, 10, 80, 80);
+        </script>
+      </article>
+    </section>
+
+    <section id="forms">
+      <article>
+        <h2>Form Elements</h2>
+        <form>
+          <label>Text: <input type="text"></label><br>
+          <label>Email: <input type="email"></label><br>
+          <label>Password: <input type="password"></label><br>
+          <label>Number: <input type="number"></label><br>
+          <label>Date: <input type="date"></label><br>
+          <label>Color: <input type="color"></label><br>
+          <label>Range: <input type="range" min="0" max="10"></label><br>
+          <label>Checkbox: <input type="checkbox"></label>
+          <label>Radio: <input type="radio" name="choice"></label><br>
+          <label>File: <input type="file"></label><br>
+          <label>Textarea: <textarea></textarea></label><br>
+          <label>Select: 
+            <select>
+              <option>Option 1</option>
+              <option>Option 2</option>
+            </select>
+          </label><br>
+          <button type="submit">Submit</button>
+        </form>
+        <details>
+          <summary>Click for hidden info</summary>
+          <p>This is hidden until clicked.</p>
+        </details>
+      </article>
+    </section>
+
+    <section id="extras">
+      <article>
+        <h2>CSS & Extras</h2>
+        <p class="highlight">This line uses a CSS class to highlight text.</p>
+        <p style="color:blue; font-weight:bold;">This text uses inline CSS.</p>
+      </article>
+    </section>
+
+    <section id="contact">
+      <article>
+        <h2>Contact Me</h2>
+        <address>
+          Written by Sneha G.<br>
+          Visit me at <a href="mailto:test@example.com">Email Me</a>
+        </address>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Sneha G | Complete HTML & CSS Reference Page</p>
+  </footer>
+
 </body>
 </html>
