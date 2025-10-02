@@ -1,0 +1,80 @@
+<style>
+    .subscribe-button {
+        background-color: rgb(202, 8, 8);
+        color: white;
+        border: none;
+        height: 36px;
+        width: 105px;
+        border-radius: 2px;
+        cursor: pointer;
+        transition: opacity 0.15s;
+        /* transition : it changes the property value in given peroid of time  */
+        /* transition takes two values what to transit and how long it will take  */
+        /* a good tansition long for 0.15s  */
+
+    }
+
+     
+    .subscribe-button:hover{
+           opacity: 0.8;
+           
+
+    }
+     
+    .subscribe-button:active{
+         opacity: 0.5;
+    }
+
+
+
+    .join-button {
+        background-color: white;
+        color: rgb(0, 126, 205);
+        border-color: rgb(0, 126, 205);
+        border-style: solid;
+        border-width: 1px;
+        height: 36px;
+        width: 62px;
+        border-radius: 2px;
+        cursor: pointer;
+        margin-right: 8px;
+        transition: background-color 1s color 1s;
+        /* soo in transition multiple effect can be addedat once , just we have to use two values in a pair */
+    }
+    /* NOTE : Always put transiton in the base css style , if not , for example if the transition of the join button is putted in a hover pseduo-class , the transition will only work when the cusor hover the join button   */
+
+    .join-button:hover{
+        background-color:  rgb(0, 126, 205);
+        color: white;
+         
+
+    }
+    .join-button:active{
+        opacity: 0.7 ;
+    }
+
+    .twitter-button {
+        background-color: rgb(16, 124, 218);
+        color: white;
+        border: none;
+        height: 36px;
+        width: 74px;
+        border-radius: 18px;
+
+        font-weight: bold;
+        font-size: 15px;
+        cursor: pointer;
+        margin-right: 6px;
+
+    }
+</style>
+
+
+
+
+
+
+<button class="subscribe-button">SUBSCRIBE</button>
+
+<button class="join-button">JOIN</button>
+<button class="twitter-button">Tweet</button>
