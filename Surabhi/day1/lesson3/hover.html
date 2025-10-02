@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Buttons exercise</title>
+        <style>
+            .req{
+                background-color: black;
+                color:white;
+                height:36px;
+                width:108px;
+                border:none;
+                box-shadow: 5px 5px 5px rgba(0,0,0,0.15);
+                transition: opacity 1s;
+            
+            }
+
+            .req:hover{
+               
+                opacity: 0.8; 
+            }
+             .req:active{
+                opacity:0.5;
+             }
+            
+            .join{
+                background-color: white;
+                color:blue;
+                border-color: blue;
+                height:36px;
+                width:60px;
+                margin-left:8px;
+                transition: background-color 0.15s, color 0.15s;
+                box-shadow:5px 5px 5px rgb(220, 5, 5,0.15);
+                
+            }
+            .join:hover{
+                background-color: blue;
+                color:white;
+            }
+        </style>
+    </head>
+    <body>
+        <button class="req">Request now</button>
+        <button class="join">JOIN</button>
+        <!-- OPACITY: how much see thru a prop is, takes values from 0 to -ves-->
+    </body>
+</html>
