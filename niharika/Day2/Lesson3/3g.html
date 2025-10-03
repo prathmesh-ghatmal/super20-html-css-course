@@ -1,0 +1,35 @@
+<!-- Q: creating bootstrap button with a hover effect having interchangable color  -->
+ <style>
+    .start-button{
+        background-color: rgb(121, 82, 179);
+        color: white;
+        height: 40px;
+        width: 100px;
+        border: none;
+        border-radius: 4px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .start-button:hover{
+        background-color: white;
+        color:rgb(121, 82, 179); ;
+    }
+    .download-button{
+        color: rgb(108, 117, 125);
+        background-color: white;
+        height: 40px;
+        width: 100px;
+        border: none;
+        border-radius: 4px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: backgorund-color 0.45s color 0.45s;
+    }
+    .download-button:hover{
+         background-color: rgb(108, 117, 125);
+        color: white;
+        transition: backgorund-color 0.45s color 0.45s;
+    }
+</style>
+<button class="start-button">Get Started</button>
+<button class="download-button">Download</button>
