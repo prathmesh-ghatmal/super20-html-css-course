@@ -1,0 +1,86 @@
+<style>
+
+    
+    /* this is going to apply in all the paragraph */
+    p{
+        font-family: Arial;
+        margin-top: 0 ;
+        margin-bottom: 0 ;
+    }
+    /* uptil now we know elements can be targeted using elements name and class name  */
+    .vedio-title{
+        font-family: Arial;
+        font-weight: bold;
+        width: 300px;
+        /* width is set in this styling to wrap the text on the next line  */
+        line-height: 24px;
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+    .video-stats{
+        font-family : Arial ; 
+        font-size : 14px ; 
+        color : rgb(96, 96, 96) ; 
+        margin-top: 0px;
+        margin-bottom: 0;
+
+    }
+    /* this is .video is called as selector */
+    .video-author{
+        font-family : Arial ; 
+        font-size : 14px ; 
+        color : rgb(96, 96, 96) ; 
+        margin-top: 20px;
+        margin-bottom: 20px;
+        /* Even after setting the value in the p , the margin-bottom in vedio-author is applied because browser follows css specificity , where video-author is more specific than generic p selector */
+        /* class name > element name  */
+    }
+    .video-des{
+        font-family: Arail;
+        font-size: 14px;
+        color : rgb(96, 96, 96) ; 
+        width: 280px;
+        line-height: 22px;
+
+        margin-top: 0;
+        margin-bottom: 100px;
+
+    }
+    .apple-text{
+        margin-bottom: 50px;
+        font-size: 14px;
+        background-color: rgb(227, 65, 64);
+        color: white;
+        text-align: center;
+        padding: 20px;
+        /* text-decoration: underline; */
+        
+    }
+    .span-example:hover{
+        text-decoration: underline;
+        cursor: pointer;
+        
+    }
+    
+        
+</style>
+<!-- paragraph bydefault comes with the top,bottom margin -->
+<p class="vedio-title">Taking tech and AI with Google CEO Sundar Pichai</p>
+<!-- to get the special charcater on html page , we are using html entity  -->
+<p class="video-stats"> 3.4M views &#183; 6 months ago</p>
+
+<p class="video-author">Marques Browniee &#10003;</p>
+
+<p class="video-des">Taking tech and AI on the heels of Google I/O. Also a daily driver phone reveal from Google's CEO, Shoutout to Sundar! </p>
+
+<p class="apple-text">
+    Show early for the best selection of the holiday favourites. <span class="span-example">Shop Now &gt </span> 
+</p>
+
+<!-- text element is the element that is present inside the line of text  -->
+<p>
+     Show early for the <strong>best selection</strong> of the <u>holiday</u>favourites. 
+     <span>Shop Now &gt </span>
+     <!-- The HTML <span> tag is used to apply styling, scripting, or structure to a specific, inline portion of text or other inline elements within a document. -->
+        <!-- we can also apply margin in a span elements -->
+</p> 
