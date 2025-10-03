@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Yt</title>
+        <style>
+            .tb1{
+                width:300px; /*ht will also change automatically*/
+                object-fit:cover; /*makes an image fit the 300px-300px*/
+                display: block;
+                /*object-position:left; /*sets view of oan image to left or right or top or bottom
+                border-style: solid;
+                border-color: pink;*/
+                margin-top:10px;
+                margin-left:0px;
+            }
+            .search-bar{
+                
+                font-size:20px;
+                margin-left:0px;
+            }
+            /*
+            BLOCK-ELE: TAKES UP ENTIRE LINE
+            INLINE ELE: APPEARS IN THE TEXT LINE
+            INLINE BLOCK: take up only req amt of space & not the entire width*/
+
+            .video-title{
+                width:300px;
+                font-weight: bold;
+                margin-bottom: 25px;
+            }
+            .auth,.stats{
+                /*
+                display:inline-block;*/
+                font-size: 15px;
+                line-height: 2px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <input class="search-bar" type="text" placeholder="search">
+        <img class="tb1" src="tb1.jpg" alt="LostStars">
+        <p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+        <p class="auth"> Marques Brownlee</p>
+        <p class="stats">3.4M views &#823; 6 months ago</p>
+    </body>
+</html>
