@@ -1,0 +1,25 @@
+<style>
+    .shadow {
+        background-color: rgb(1, 24, 138);
+        color: whitesmoke;
+        font-size: large;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border: none;
+        cursor: pointer;
+        box-shadow: 4px 4px 4px grey; 
+        /* 4px 4px is equivalent to x y cardinal points. third 4px applies blur */
+    }
+
+    .shadow:active {
+        box-shadow: 0 0 0 grey;
+        transform: translate(4px, 4px);  
+        /* moves the button to 4px right (x axis) and 4px down (y axis)*/
+
+    }
+</style>
+
+
+<button class="shadow">Shadow</button>
