@@ -1,0 +1,146 @@
+<!-- Layouts 
+ vertical=> items arranged vertically (yt) , 
+ horizontal=> items arranged horizanotally-->
+<!-- DIV ELEMENT -> DIVISION, it is block element-->
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>DIV DEMO</title>
+        <style>
+            p{
+                font-family: arial;
+                font-size: 14px;
+            }
+                 /*reduces block size*/
+                /*WE CAN CONTAIN ANY CONTENT IN IT, SORT OF CONTAINER*/
+                /*CONTAINERS TO GRP THE ELEMENTS TOGETHER ON A PAGE*/
+
+            .preview-2,.preview1{
+                display: inline-block;
+                margin-right: 8px;
+                margin-top:2px;
+            }
+            
+            .search-bar{
+                display:block;
+                font-size:20px;
+                margin-bottom: 2px;
+            }
+            /*
+            BLOCK-ELE: TAKES UP ENTIRE LINE
+            INLINE ELE: APPEARS IN THE TEXT LINE
+            INLINE BLOCK: take up only req amt of space & not the entire width*/
+
+            /*video 1*/
+
+            .tb1{
+                width:300px; /*ht will also change automatically*/
+                object-fit:cover; /*makes an image fit the 300px-300px*/
+                display: block;
+                /*object-position:left; /*sets view of oan image to left or right or top or bottom
+                border-style: solid;
+                border-color: pink;*/
+                margin-top:10px;
+                margin-left:0px;
+            }
+            /*.chnlpic{
+                width:10px;
+                height:10px;
+                border-radius:5px;
+                margin: left 0;
+                text-align: left;
+            }*/
+
+            .chnlpic,.details{
+                display:inline-block;
+                vertical-align: top;
+            }
+
+            .video-title{
+                width:250px;
+                font-weight: bold;
+                margin-top:2px;
+                margin-left:11px;
+            }
+            .auth,.stats{
+                /*
+                display:inline-block;*/
+                font-size: 15px;
+                line-height:1px;
+                margin-left:11px;
+            }
+            .stats{
+                margin-top:30px;
+            }
+
+            /*video2*/
+            .cat{
+                width: 300px;
+                height:163px;
+                object-fit: cover;
+            }
+            .stats2,.t2,.chnl{
+                display: inline-block;
+                margin-left:11px;
+            }
+            .t2{
+                width:250px;
+                font-weight: bold;
+                margin-top:2px;
+                margin-left:11px;
+                margin-top: 1px;
+            }
+            .chnl,.stats2{
+                font-size: 15px;
+                margin-top:2px;
+                line-height:1px;
+            }
+            
+            /*.chnlpic2{
+                height:10px;
+                width:45px;
+                border-radius: 15px;
+            }*/
+            .chnlpic2,.details2{
+                display: inline-block;
+                vertical-align: top;   
+            }
+        
+        </style>
+    </head>
+    <body>
+        <input class="search-bar" type="text" placeholder="search">
+        <div class="video-previews">
+            <div class="preview1">
+                <div> <!-- row 1-->
+                    <img class="tb1" src="tb1.jpg" alt="LostStars">
+                </div>
+                <div><!-- row 2-->
+                    <div class="chnlpic"> <!-- row 2 col 1-->
+                        <img style="height:34px; width:34px; border-radius:17px;" src="channel1.jpg" alt="xyz">
+                    </div><div class="details">
+                        <p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+                        <p class="auth"> Marques Brownlee</p>
+                        <p class="stats">3.4M views &#183; 6 months ago</p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="preview-2">
+                <div class="row1">
+                    <img class="cat" src="img3.jpg" alt="cat"><br>
+                </div>
+                <div class="row2">
+                    <div class="chnlpic2"> <!-- row 2 col 1-->
+                        <img style="height:34px; width:34px; border-radius:17px;" src="profile2.jpg" alt="abc">
+                    </div><div class="details2"> <!-- row 2 col 2-->
+                        <p class="t2">Pomodoro Timer 4x30min | Kitty Dat Care Lo-fi beats | ADHD focus</p><br>
+                        <p class="chnl">ADHD Couple</p><br>
+                        <p class="stats2">892K views &#183; 1 year ago</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </body>
+</html>
