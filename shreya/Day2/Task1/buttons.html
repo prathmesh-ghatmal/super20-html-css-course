@@ -1,0 +1,115 @@
+<!-- 1.Create a button using html
+2. Add the CSS styles one by one. -->
+
+
+<style>
+.subscribe-button {
+
+    /* FOr bg color */
+    background-color: rgb(158, 17, 17); 
+
+    /* According to the color theory any color can be made using 3 colors red,green and blue. SO these numbers are the amt of these colors respectively */
+
+    color:white;
+    /* For the text */
+    border: none;
+    height: 36px;
+    width: 110px;
+    border-radius:2px;
+    cursor:pointer;
+    transition:opacity 0.15s
+/* 
+    When we hover on the button the cursor changes to a pointer */
+    /* When we hover over somthing trans help to make our transition better. */
+}
+
+.subscribe-button:hover{
+
+    /* here hover means that these styles will be applied only when u hover arround them.
+    this means that we are adding extra style when we hover
+    hover here is a pseudo class i.e it will add extra styles only when we hover. */
+    opacity: 0.8 ;
+    /* It is used to fade a given element; where 0 is transparent*/
+}
+
+.subscribe-button:active{
+    /* here active means that when u click the button what changes will be seen. 
+    These styles will activate when we click the element*/
+    opacity: 0.5;
+}
+
+.join-button {
+    background-color: white;
+    border-color: rgb(41,118,211);
+    border-style:solid;
+    color: rgb(41,118,211) ;
+    border-width: 1px;
+    border-radius:2px ; 
+    height:36px;
+    width:62px;
+    margin-left: 10px;
+    cursor:pointer;
+    transition:background-color 0.15s , opacity 0.15s ,color 1s;
+     /* #It is imp to put the transition in the org style */
+}
+
+.join-button:hover{
+    background-color:rgb(41,118,211);
+    color: white;
+}
+
+.join-button:active{
+    opacity:0.7;
+}
+
+.tweet-button {
+    background-color: rgb(0, 147, 255);
+    color:white;
+    border: 0px;
+    border-radius: 30px;
+    width: 70px;
+    height: 36px;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    transition: box-shadow 0.15s;
+
+    /* for getting a good border radius always consider the half of height or width (whichever is lower) */
+     
+}
+
+.tweet-button:hover{
+     box-shadow:5px 5px 10px rgba(0,0,0,0.15) ;
+}
+   /* here 5px: is shadow 5px outside horizontally.
+    5px is shadow 5px outsode vertically
+    and 10px is how blur is the shadow
+    rgba is red blue green along with opacity so 0.15 is opacity.
+ */
+    
+
+
+</style>
+<button class="subscribe-button">SUBSCRIBE</button>
+
+<button class="join-button"> JOIN </button>
+
+<button class="tweet-button"> Tweet </button>
+
+
+
+
+
+
+
+<!-- class attribute allows us to label the html elements -->
+ <!--CSS Rules:
+ CSS selectors: The elements on which we want to apply style on are called as CSS selectors
+  
+background-color: red;
+The code to the left is called as the CSS Property.
+To the right is the css value
+: is used to seperate the property and value. 
+; is similar to . 
+ -->
