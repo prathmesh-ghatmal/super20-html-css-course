@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube.com clone</title>
+    <style>
+        .thumbnail{
+            width: 300px;
+            /* NOTE : by just setting the width of the image height og the image is also set automatically */
+            /* height can be set manually but sometimes done it will disfigure the aspect ratio of the image */
+            height: 300px;
+
+            object-fit: cover;
+            /* object-fit : it fits the image in the container according to values assign to it , here cover will covers the image in its container by maintaining its ratio */
+            /* contain : it fit exactly in the container of the image maintaining its ratio , it shrinks image until it fits in the container by keeping its ratio , soo containter might be big soo the image can be move using object-position */
+
+            object-position: left;
+            /* object-position : sets the position of the image  */
+
+        }
+    </style>
+</head>
+<body>
+    <!-- image element is a void element -->
+    <img class="thumbnail" src="00_images/iimage1.webp" alt="">
+    <!-- src :(source) which image is display on the website , it follows the rule of the filepath to locate the file  -->
+     <!-- alt :  -->
+</body>
+</html>
