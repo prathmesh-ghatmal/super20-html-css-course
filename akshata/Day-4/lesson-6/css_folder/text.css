@@ -1,0 +1,40 @@
+p {
+        font-family: Roboto;
+    }
+
+    .video-title {
+        font-weight: bold;
+        font-size: 18px;
+        width: 300px;
+        line-height: 24px;
+        margin-bottom: 0px;
+    }
+
+    .video-stats {
+        color: grey;
+        font-size: 14px;
+        margin-top: 5px;
+    }
+
+    .video-author {
+        color: grey;
+        font-size: 14px;
+        margin-top: 5px;
+    }
+
+    .video-decription {
+        color: grey;
+        font-size: 14px;
+        margin-top: 10px;
+        width: 300px;
+    }
+
+    .apple-text {
+        background-color: brown;
+        color: white;
+        font-size: 14px;
+        margin-bottom: 50px;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
