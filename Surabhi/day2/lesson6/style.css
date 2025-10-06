@@ -1,0 +1,14 @@
+.btn{
+    background-color:lightseagreen;
+    color:white;
+    font-weight: bold;
+    border:none;
+    padding:10px;
+}
+.para{
+    color:rgb(180, 103, 252);
+    background-color: yellow;
+}
+h1{
+    font-family: roboto;
+}

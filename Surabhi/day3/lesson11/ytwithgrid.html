@@ -1,0 +1,244 @@
+<!-- Layouts 
+ vertical=> items arranged vertically (yt) , 
+ horizontal=> items arranged horizanotally-->
+<!-- DIV ELEMENT -> DIVISION, it is block element-->
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>DIV DEMO</title>
+        <style>
+            p{
+                font-family: arial;
+                font-size: 14px;
+            }
+                 /*reduces block size*/
+                /*WE CAN CONTAIN ANY CONTENT IN IT, SORT OF CONTAINER*/
+                /*CONTAINERS TO GRP THE ELEMENTS TOGETHER ON A PAGE*/
+
+            .preview-2,.preview1{
+                display: inline-block;
+                vertical-align: middle;
+            }
+            
+            .search-bar{
+                display:block;
+                font-size:20px;
+                
+            }
+            /*
+            BLOCK-ELE: TAKES UP ENTIRE LINE
+            INLINE ELE: APPEARS IN THE TEXT LINE
+            INLINE BLOCK: take up only req amt of space & not the entire width*/
+
+            /*video 1*/
+
+            .thumbnail{
+                width:300px; /*ht will also change automatically*/
+                 /*makes an image fit the 300px-300px*/
+                display: block;
+                /*object-position:left; /*sets view of oan image to left or right or top or bottom
+                border-style: solid;
+                border-color: pink;*/
+                
+            }
+
+            .video-info-grid
+            {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+
+            }
+
+            .chnlpic{
+                width:50px;
+                display:inline-block;
+                vertical-align: top;
+            }
+
+            .details{
+                display:inline-block;
+                width:245px;
+                
+            }
+            .video-title{
+                width:290px;
+                font-weight: bold;
+                
+            }
+
+            .auth,.stats{
+                line-height:3px;
+                margin-top:1px;
+
+            }
+
+            /*video2*/
+            
+            .stats,.t2{
+                display: inline-block;
+            }
+            .t2{
+                width:250px;
+                font-weight: bold;
+            }
+            .stats{
+                font-size: 15px;
+            }
+            
+            .chnlpic2,.details2{
+                display:inline-block;
+                vertical-align:top;  
+            }
+            
+            .allvideos{
+                display:grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+                column-gap:10px;
+                }
+
+                .stats2,.auth2{
+                    margin-top:1px;
+                    line-height: 5px;
+                }
+                
+
+                
+        </style>
+    </head>
+    <body>
+        <input class="search-bar" type="text" placeholder="search">
+        <div class="allvideos">
+            <div class="preview1"><!-- COLLECTION OF ALL VIDEOS-->
+                <div> <!-- row 1-->
+                    <img class="thumbnail" src="tb1.jpg" alt="LostStars">
+                </div>
+                <div class="video-info-grid"><!-- row 2-->
+                    <div class="chnlpic"> <!-- row 2 col 1-->
+                        <img style="height:34px; width:34px; border-radius:17px;" src="channel1.jpg" alt="xyz">
+                    </div>
+                    <div class="details"> <!-- row2 col2-->
+                        <p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+                        <p class="auth"> Marques Brownlee</p>
+                        <p class="stats">3.4M views &#183; 6 months ago</p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="preview-2">
+                <div class="row1">
+                    <img class="thumbnail" src="img3.jpg" alt="cat">
+                </div>
+                <div class="video-info-graphic">
+                    <div class="chnlpic"> <!-- row 2 col 1-->
+                        <img style="height:34px; width:34px; border-radius:17px;" src="profile2.jpg" alt="abc">
+                    </div>
+                    <div class="details"> <!-- row 2 col 2-->
+                        <p class="t2">Pomodoro Timer 4x30min | Kitty Dat Care Lo-fi beats | ADHD focus</p>
+                        <p class="auth2">ADHD Couple</p>
+                        <p class="stats2">892K views &#183; 1 year ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="preview-2">
+                <div class="row1">
+                    <img class="thumbnail" src="img3.jpg" alt="cat">
+                </div>
+                <div class="video-info-graphic">
+                    <div class="chnlpic"> <!-- row 2 col 1-->
+                        <img style="height:34px; width:34px; border-radius:17px;" src="profile2.jpg" alt="abc">
+                    </div>
+                    <div class="details"> <!-- row 2 col 2-->
+                        <p class="t2">Pomodoro Timer 4x30min | Kitty Dat Care Lo-fi beats | ADHD focus</p>
+                        <p class="auth2">ADHD Couple</p>
+                        <p class="stats2">892K views &#183; 1 year ago</p>
+                    </div>
+                </div>
+            </div>
+
+             <div class="preview1"><!-- COLLECTION OF ALL VIDEOS-->
+                <div> <!-- row 1-->
+                    <img class="thumbnail" src="tb1.jpg" alt="LostStars">
+                </div>
+                <div class="video-info-grid"><!-- row 2-->
+                    <div class="chnlpic"> <!-- row 2 col 1-->
+                        <img style="height:34px; width:34px; border-radius:17px;" src="channel1.jpg" alt="xyz">
+                    </div>
+                    <div class="details"> <!-- row2 col2-->
+                        <p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+                        <p class="auth"> Marques Brownlee</p>
+                        <p class="stats">3.4M views &#183; 6 months ago</p>
+                    </div>
+                </div>
+            </div>
+
+             <div class="preview1"><!-- COLLECTION OF ALL VIDEOS-->
+                <div> <!-- row 1-->
+                    <img class="thumbnail" src="tb1.jpg" alt="LostStars">
+                </div>
+                <div class="video-info-grid"><!-- row 2-->
+                    <div class="chnlpic"> <!-- row 2 col 1-->
+                        <img style="height:34px; width:34px; border-radius:17px;" src="channel1.jpg" alt="xyz">
+                    </div>
+                    <div class="details"> <!-- row2 col2-->
+                        <p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+                        <p class="auth"> Marques Brownlee</p>
+                        <p class="stats">3.4M views &#183; 6 months ago</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+
+        <div class="allvideos">
+            <div class="preview1"><!-- COLLECTION OF ALL VIDEOS-->
+                <div> <!-- row 1-->
+                    <img class="thumbnail" src="tb1.jpg" alt="LostStars">
+                </div>
+                <div class="video-info-grid"><!-- row 2-->
+                    <div class="chnlpic"> <!-- row 2 col 1-->
+                        <img style="height:34px; width:34px; border-radius:17px;" src="channel1.jpg" alt="xyz">
+                    </div>
+                    <div class="details"> <!-- row2 col2-->
+                        <p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+                        <p class="auth"> Marques Brownlee</p>
+                        <p class="stats">3.4M views &#183; 6 months ago</p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="preview-2">
+                <div class="row1">
+                    <img class="thumbnail" src="img3.jpg" alt="cat">
+                </div>
+                <div class="video-info-graphic">
+                    <div class="chnlpic"> <!-- row 2 col 1-->
+                        <img style="height:34px; width:34px; border-radius:17px;" src="profile2.jpg" alt="abc">
+                    </div>
+                    <div class="details"> <!-- row 2 col 2-->
+                        <p class="t2">Pomodoro Timer 4x30min | Kitty Dat Care Lo-fi beats | ADHD focus</p>
+                        <p class="auth2">ADHD Couple</p>
+                        <p class="stats2">892K views &#183; 1 year ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="preview-2">
+                <div class="row1">
+                    <img class="thumbnail" src="img3.jpg" alt="cat">
+                </div>
+                <div class="video-info-graphic">
+                    <div class="chnlpic"> <!-- row 2 col 1-->
+                        <img style="height:34px; width:34px; border-radius:17px;" src="profile2.jpg" alt="abc">
+                    </div>
+                    <div class="details"> <!-- row 2 col 2-->
+                        <p class="t2">Pomodoro Timer 4x30min | Kitty Dat Care Lo-fi beats | ADHD focus</p>
+                        <p class="auth2">ADHD Couple</p>
+                        <p class="stats2">892K views &#183; 1 year ago</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

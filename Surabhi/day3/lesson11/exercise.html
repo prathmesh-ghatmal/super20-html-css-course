@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            lesson 11 exe
+        </title>
+        <style>
+            .grid1{
+                display:grid;
+                grid-template-columns: 200px 75px;
+            }
+
+            .grid2{
+                display: grid;
+                grid-template-columns: 50px 1fr 75px;
+            }
+
+            .grid3{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                column-gap: 20px;
+                margin-top:10px;
+            }
+
+            .main button{
+                background-color:rgb(59, 129, 250);
+                color:white;
+                font-size: 10px;
+                padding:2px;
+                width:80px;
+                height:25px;
+                border-radius: 5px;
+                border: none;
+                
+             }
+             .abc img{
+                height:120px;
+                width:120px;
+                object-fit: cover;                
+             }
+
+             .cat-profiles p{
+                font-family: arial;
+                font-size: 10px;
+                margin-top:0px;
+             }
+
+             .mutuals{
+                padding-top: px;
+                width:100px;
+             }
+
+             .main{
+                display:grid;
+                grid-template-columns: 130px 130px 130px;
+                height:230px;
+                width:300px;
+                
+                align-items: center;
+             }
+
+             .abc{
+                width:50px;
+                height:100px;
+                display: inline-block;
+                box-shadow:5px 5px 5px rgba(1,1,1,0.1); ;
+             }
+
+             .info{
+                display: grid;
+                grid-template-columns: 20px 1fr;
+             }
+             
+             .info img{
+                height:25px;
+                width:25px;
+                border-radius: 10px;
+             }
+
+             .info p{
+                margin-top:5px;
+                margin-left:8px;
+                font-size: 13px;
+             }
+        </style>
+    </head>
+    <body>
+        <p>11a</p>
+        <div class="grid1">
+            <div style="background-color:skyblue;">
+                200px
+            </div>
+            <div style="background-color:pink;">
+                75px
+            </div>
+        </div>
+
+        <p>11b</p>
+        <div class="grid2">
+            <div style="background-color:skyblue;">
+                col1
+            </div>
+            <div style="background-color:pink;">
+                col2
+            </div>
+            <div style="background-color:skyblue;">
+                col3
+            </div>
+        </div>
+
+            <p>11c</p>
+            <div class="grid3">
+                <div style="background-color:pink;">
+                    col1
+                </div>
+                <div style="background-color:pink;">
+                    col2
+                </div>
+                <div style="background-color:pink;">
+                    col3
+                </div>
+                 <div style="background-color:pink;">
+                    col4
+                </div>
+            </div>
+            <div class="grid3">
+                <div style="background-color:pink;">
+                    col1
+                </div>
+                <div style="background-color:pink;">
+                    col2
+                </div>
+                <div style="background-color:pink;">
+                    col3
+                </div>
+                 <div style="background-color:pink;">
+                    col4
+                </div>
+            </div>
+
+            <p>11d</p>
+            <div class="main">
+                <div class="abc">
+                    <div class="pro1">
+                        <img src="kitty.jpeg" alt="mr. cat">
+                    </div>
+                    <div>
+                        <p style="font-weight: bold; margin-top:2px; font-size:15px">Oliver</p>
+                    </div>
+                    <div class="info">
+                        <div class="circle"><img src="roar.png" alt="cat"></div>
+                        <div><p class="mutuals">2 mutual friends</p></div>
+                    </div>
+                    <div>
+                        <button class="frnd">Add Friend</button>
+                    </div>
+                </div>
+
+                <div class="abc">
+                    <div class="pro1">
+                        <img src="roar.png" alt="mr. cat">
+                    </div>
+                    <div>
+                        <p style="font-weight: bold; margin-top:2px; font-size:15px">Oliver</p>
+                    </div>
+                    <div class="info">
+                        <div class="circle"><img src="roar.png" alt="cat"></div>
+                        <div><p class="mutuals">2 mutual friends</p></div>
+                    </div>
+                    <div>
+                        <button class="frnd">Add Friend</button>
+                    </div>
+                </div>
+
+                <div class="abc">
+                    <div class="pro1">
+                        <img src="sideeye.png" alt="mr. cat">
+                    </div>
+                    <div>
+                        <p style="font-weight: bold; margin-top:2px; font-size:15px">Oliver</p>
+                    </div>
+                    <div class="info">
+                        <div class="circle"><img src="roar.png" alt="cat"></div>
+                        <div><p class="mutuals">2 mutual friends</p></div>
+                    </div>
+                    <div>
+                        <button class="frnd">Add Friend</button>
+                    </div>
+                </div>
+            </div>
+        
+    </body>
+</html>

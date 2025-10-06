@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>lesson 9 exe</title>
+        <style>
+            /*9a*/
+            .red{
+                background-color: red;
+                height:100px;
+                width:100px;
+            }
+            /*9b*/
+            .green{
+                background-color: green;
+                height:100px;
+                width:100px;
+                border-radius: 50px;
+            }
+
+            /*9c*/
+            .service{
+                padding-left:8px;
+                height:100px;
+                width:300px;
+                border-style:solid;
+                border-width:1px;
+                border-color: black;
+            }
+            .yes,.no{
+                width:30px;
+                border: none;
+                background-color: rgb(231, 231, 231);
+            }
+
+            /*9d*/
+
+            
+            .ytmusic{
+                font-family:Arial ;
+                background-color: black;
+                color:white;
+                height:120px;
+                width:400px;
+                padding:8px;
+            }
+            .title{
+                font-size: 28px;
+                font-weight: bold;
+                margin-bottom:2px;
+                margin-top: 1px;;
+            }
+            .desc{
+                color: rgb(160, 160, 160);
+            }
+
+            /*9e*/
+            .cat2{
+                width:400px;
+                height:60px;
+                border-radius: 30px;
+                box-shadow: 5px 5px 5px rgba(1,1,1,0.15);
+            }
+            .small-cat{
+                height:50px;
+                width:50px;
+                border-radius: 100px;
+                object-fit: cover;
+                
+                vertical-align: middle;
+            }   
+            .tb{
+                border-radius: 2px;
+                margin-left:10px;
+                border:none;
+                height:30px;
+                vertical-align: middle;
+            }
+            .btn{
+                background-color: rgb(71, 172, 250);
+                color:white;
+                font-weight: bold;
+                height:36px;
+                width:80px;
+                border:none;
+                border-radius:18px;
+                margin-left:5px;
+                vertical-align: middle;
+                cursor: pointer;
+            }
+             /*9g*/
+             .cat-profiles button{
+                background-color:rgb(59, 129, 250);
+                color:white;
+                font-size: 10px;
+                padding:2px;
+                width:80px;
+                height:25px;
+                border-radius: 5px;
+                border: none;
+                
+             }
+             .cat-profiles img{
+                height:120px;
+                width:120px;
+                object-fit: cover;                
+             }
+
+
+             .cat-profiles div {
+                align-items:left ;
+                padding-left: 8px;                
+                display: inline-block;
+                vertical-align: middle;
+                width:120px;
+                height:200px;
+                object-fit: cover;
+                box-shadow: 2px 2px 2px rgba(1,1,1,0.15);
+             }
+
+             .cat-profiles p{
+                font-family: arial;
+                font-size: 10px;
+                margin-top:0px;
+             }
+
+             .mutuals{
+                padding-top: 0px;
+             }
+
+             /*9h*/
+             .google div{
+                text-align: center;
+                
+             }
+             .google button{
+                border: none;
+                height:40px;
+                width:150px;
+                margin-top:15px;
+                margin-right: 5px;
+                
+             }
+             .google input{
+                height:36px;
+                width:500px;
+                border-radius: 18px;
+                padding-left:8px;
+                box-shadow: 1px 1px 1px 1px rgba(1,1,1,0.15);
+                border: none;
+             }
+
+             .img{
+                height:140px;
+             }
+
+        </style>
+    </head>
+    <body>
+        <p>9a</p>
+        <div class="red"></div>
+
+        <p>9b</p>
+        <div class="green"></div> 
+         
+        <p>9c</p>
+        <div class="service">
+            <p class="question">Satisfied with our service?</p>
+            <button class="yes">Yes</button>
+            <button class="no">No</button>
+        </div>
+
+        <p>9d</p>
+        <div class="ytmusic">
+            <p class="title">Install YouTube Music</p>
+            <p class="desc">Add YouTube Music to your desktop for quick and easy access</p>
+        </div>
+
+        <p>9e</p>
+        <div class="cat2">
+            <img class="small-cat" src="kitty.jpeg" alt="circle-cat">
+            <input class="tb" type="text" placeholder="What's happening?"> 
+            <button class="btn">Tweet</button>
+        </div>
+
+        <br><br>
+        <p>9f</p>
+        <div class="cat-profiles">
+            <div class="pro1">
+                <img src="kitty.jpeg" alt="mr. cat">
+                <p style="font-weight: bold;">Oliver</p>
+                <p class="mutuals">2 mutual friends</p>
+                <button class="frnd">Add Friend</button>
+            </div>
+            <div class="pro2">
+                <img src="sideeye.png" alt="Mimi">
+                <p style="font-weight: bold;">Mimi</p>
+                <p class="mutuals">2 mutual friends</p>
+                <button class="frnd">Add Friend</button>
+            </div>
+            <div class="pro3">
+                <img src="roar.png" alt="rex">
+                <p style="font-weight: bold;">Rex</p>
+                <p class="mutuals">2 mutual friends</p>
+                <button class="frnd">Add Friend</button>
+            </div>
+        </div>
+
+        <p>9h</p>
+        <div class="google">
+            <div class="img"><img src="image.png" alt="google"></div>
+            <div class search><input type="text" placeholder="Search Google or type a URL"></div><br>
+            <div class="btns"><button class="btns">Google Search</button>
+           <button class="btns">I'm Feeling Lucky</button></div>
+        </div>
+    </body>
+</html>
