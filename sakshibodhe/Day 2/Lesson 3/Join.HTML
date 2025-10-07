@@ -1,0 +1,33 @@
+<style>
+  button {
+    background-color: white;
+    color: rgb(41, 118, 211);
+    border-color: rgb(41, 118, 211);
+    border-style: solid;
+    border-width: 1px;
+    height: 36px;
+    width: 62px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: border-color 0.15s,
+    color 0.15s;
+  }
+
+  button:hover {
+   background-color: rgb(41, 118, 211);
+   color: white
+  }
+
+  button:active{
+    opacity: 0.7;
+  }
+</style>
+
+<button>Join</button>
+
+
+<!-- transition property takes two values, first one is what we want to transition -->
+<!-- we want to smoothly fade out the button when we hover over it instead of instantaneously(opacity) -->
+<!-- second one is, how long this transaction will take -->
+
+<!-- Always put transition in sort of base CSS style -->
