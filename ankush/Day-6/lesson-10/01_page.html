@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>YouTube Clone</title>
+    <style>
+        .thumbnail {
+            width: 300px;
+            display: block;
+        }
+
+        .search-bar {
+            display: block;
+        }
+
+        .video-title {
+            /* width: 200px; */
+        }
+
+        .video-preview {
+            width: 300px;
+            display: inline-block;
+            vertical-align: top;
+            margin-right: 15px;
+        }
+        .channel-pic{
+            display: inline-block;
+            width: 50px;
+            /* image bydefault overflows the container to avoid that we have to set height and width  */
+        }
+        .profile-pic{
+            height: 50px;
+        }
+        .video-info{
+            display: inline-block;
+            /* even after doing inline block they are not next to each other , because bydefault div as a width of 100%  */
+            width: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <input class="search-bar" type="text" placeholder="Search">
+    <!-- google drawing : to determine the nested layout , take the screenshot paste it in google drawing and analyze it -->
+    <!-- helps to determine the div sections within it -->
+    <!-- dissects the design  -->
+
+    <div class="video-preview">
+        <div><img class="thumbnail" src="image.png"></div>
+        <div class="channel-pic">
+            <img class="profile-pic" src="channels4_profile.jpg" alt="">
+        </div>
+        <div class="video-info">
+            <p class="video-title">
+                Talking Tech and AI with Google CEO Sundar Pichai!
+            </p>
+            <p class="video-author">
+                Marques Brownlee
+            </p>
+            <p class="video-stats">
+                3.4M views &#183; 6 months ago
+            </p>
+        </div>
+    </div>
+
+    <div class="video-preview">
+        <img class="thumbnail" src="image.png">
+
+        <p class="video-title">
+            Try Not To Laugh Challenge #9
+        </p>
+        <p class="video-author">
+            Sharma
+        </p>
+        <p class="video-stats">
+            19M views &#183; 4 years ago
+        </p>
+    </div>
+
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nested layout Technique</title>
+</head>
+
+<body>
+
+
+
+
+</body>
+
+</html>
