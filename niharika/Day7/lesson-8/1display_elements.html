@@ -1,0 +1,38 @@
+<!-- there are 3 types of html elements:
+ 1. Block elements- takes up the entire line 
+ 2. Inline-block element- only takes up as much space is needed. Eg- img, search bars
+ 3. Inline elements- text elements. appears within a line of text-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Youtube.com clone </title>
+    <style>
+        .thumbnail {
+            width: 300px;
+            display:block
+        }
+
+        .video-title {
+            width: 300px;
+        }
+
+        .video-author,
+        .video-stats {
+            display: block;
+        }   
+        /* comma to manage 2 elements with same css properties */
+
+    </style>
+</head>
+
+<body>
+    <input class="search-bar" type="text" placeholder="Search">
+    <img class="thumbnail" src="thumbnail-1.webp">
+    <p class = "video-title">Talking Tech and AI with Google CEO Sundar Pichai !</p>
+    <p class = "video-author">Marques Brownlee</p>
+    <p class="video-stats">3.4M views &#183; 6 months ago</p>
+</body>
+
+</html>

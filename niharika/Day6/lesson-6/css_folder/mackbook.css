@@ -1,0 +1,51 @@
+.new {
+        font-family: Arial, sans-serif;
+        font-size: small;
+        color: rgb(195, 66, 40);
+        text-align: center;
+        font-weight: bold;
+        margin-bottom: 0px;
+    }
+
+    .pro {
+        font-family: Arial, sans-serif;
+        font-size: large;
+        text-align: center;
+        font-weight: bold;
+        margin-top: 5px;
+        margin-bottom: 0px;
+    }
+
+    .forpros {
+        font-family: Arial, sans-serif;
+        font-size: xx-large;
+        text-align: center;
+        margin-top: 5px;
+        font-weight: bold;
+        margin-bottom: 0px;
+    }
+
+    .cost {
+        font-family: Arial, sans-serif;
+        font-size: medium;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    button {
+        background-color: rgb(17, 136, 254);
+        color: white;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+        font-family: Arial, sans-serif;
+        font-size: medium;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-weight: bold;
+        display: block; 
+        margin: 10px auto;
+    }
