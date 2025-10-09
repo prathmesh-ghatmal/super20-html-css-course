@@ -3,12 +3,18 @@
 
 <head>
     <title>YouTube Clone</title>
+
+
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <style>
+        p{
+             font-family: "Roboto", sans-serif;
+             /* second one is the backup font  */
+        }
         .thumbnail {
             width: 300px;
             display: block;
         }
-
         .search-bar {
             display: block;
         }
@@ -16,6 +22,9 @@
         .video-title {
             /* width: 200px; */
             margin-top: 0px;
+            font-size: 17px;
+            font-weight: 500;
+            line-height: 20px ;
         }
 
         .video-preview {
@@ -24,21 +33,31 @@
             vertical-align: top;
             margin-right: 15px;
         }
-        .channel-pic{
+
+        .channel-pic {
             display: inline-block;
             width: 50px;
             /* image bydefault overflows the container to avoid that we have to set height and width  */
             vertical-align: top;
         }
-        .profile-pic{
-           width: 100%;
-           /* 100% takes the entier space of the container   */
+
+        .profile-pic {
+            width: 100%;
+            /* 100% takes the entier space of the container   */
+            border-radius: 50%;
+            margin-top: 6px;
         }
-        .video-info{
-            margin-top: 0px;
+
+        .video-info {
+            margin-top: 6px;
             display: inline-block;
             /* even after doing inline block they are not next to each other , because bydefault div as a width of 100%  */
             width: 200px;
+            
+        }
+
+        .thumbnail-row {
+            margin-top: 12px;
         }
     </style>
 </head>
@@ -50,7 +69,7 @@
     <!-- dissects the design  -->
 
     <div class="video-preview">
-        <div><img class="thumbnail" src="image.png"></div>
+        <div class="thumbnail-row"><img class="thumbnail" src="image.png"></div>
         <div class="channel-pic">
             <img class="profile-pic" src="channels4_profile.jpg" alt="">
         </div>
