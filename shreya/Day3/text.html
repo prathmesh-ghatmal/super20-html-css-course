@@ -1,0 +1,142 @@
+<style>
+.video_tittle
+{
+    font-family: Arial;
+    /* This is the common font used by the websites>*/
+    font-size:18px;
+    font-weight:bold;
+    width:279px;
+    line-height:24px;
+    margin-bottom: 5px;
+}
+
+.video_stats{
+    font-family: Arial;
+    font: 14px;
+    color: rgb(96,96,96);
+    margin-top:0px
+}
+
+.video_author{
+    font-family: Arial;
+    font: 14px;
+    color: rgb(96,96,96);
+    margin-top:0px;
+    margin-bottom:19px;
+}
+
+.video_text{
+    font-family: Arial;
+    font: 14px;
+    color: rgb(96,96,96);
+    width:279px;
+    margin-top:0px;
+    margin-bottom: 20px;
+    list-style:22px;
+    
+}
+
+.apple_text{
+    margin-bottom: 50px;
+    font-family: Arial;
+    font-size:14px;
+    background-color:rgb(227, 65, 64);
+    color:white;
+    text-align: center;
+    padding-top:18px;
+    padding-bottom: 18px;
+
+    .span:hover{
+        text-decoration: underline;
+         cursor:pointer
+
+    }
+/* 
+    text-decoration: underline;
+    This applies underline to whole text if we want to apply css to some particular thing text element.
+    Text element is a element which inside a line of a text */
+
+}
+
+.SIH{
+    margin-left: 12px;
+}
+
+
+
+</style>
+
+<p class="video_tittle">
+    Talking Tech and AI with Google CEO Sundar Pichai
+</p>
+<!-- P tag itself comes with margin of 12px in bottom and to and it is default-->
+
+<p class="video_stats">
+    3.4M views &#183; 6 months ago
+    <!--HTML entity middle dot (websearch for diff specisl char) -->
+</p>
+
+<p class="video_author">
+    Marques Brownie &#10003;
+</p>
+
+<p class="video_text">Talking tech and AI on the heels of Google I/O. Also a daily driver phone reveal from Google's CEO. Shoutout to Sundar</p>
+
+
+<p class="apple_text">
+    Shop earlt for the best selection of holiday favourites. <span class="span">Shop now &#62;</span>
+</p>
+<!-- #use of span explained at the bottom -->
+
+<!-- General Technique:
+1.Create element with HTML
+2.Stye with CSS one by one -->
+
+
+<!-- HTML Entity:It lets us print special charecters:
+If u Google html entity middle dot:
+It will give u a html code which can be used later. -->
+
+<!-- Many times we write the same style for different classes we can reduce it by creating a div or directly doing it for the tag
+This is called cleaning the code by removing the duplication.
+Whatever that is repeated can be written in the main div.eg font-style:'Arial'
+margin:0px
+CSS Specificity:If we have multiple lines settting the same property then there is priority that a browser follows
+This specificity depends on the selectors:
+The one that is most specefic is most likely to have the higher priority. -->
+
+<!-- 
+ text-decoration: underline;
+    This applies underline to whole text if we want to apply css to some particular thing text element.
+    Text element is a element which inside a line of a text  -->
+
+    eg: I am shreya <strong>Revanwar</strong> <br>
+    eg: I am shreya <b>Revanwar</b>  <br>
+    eg: I am shreya <i>Revanwar</i>  <br>
+    eg: I am shreya <sub>Revanwar</sub> <br>
+    eg: I am shreya <sup>Revanwar</sup> <br>
+    eg: I am shreya <em>Revanwar</em> <br>
+    eg: I am shreya <mark>Revanwar</mark> <br>
+    eg: I am shreya <span>Revanwar</span> <br>
+
+    <!-- As other text elements do some or the other things span does not add any sort of style to ur code but a class can be declared here and then this can be used for stylinf in css -->
+
+<!-- 
+    In HTML there is no use of spaces and writing on next line, it will be printed without any drama.
+    Even u write line add spaces purposly it will combine all the spaces together and print it as 1 space -->
+    <p>We are selected in         SIH</p>
+    <!-- Check Output -->
+     <!-- To deal with this u can always add margin on the text -->
+
+<p>We are selected in <span class='SIH'> SIH </span></p>
+
+
+
+
+    
+
+
+
+
+
+
