@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Practice</title>
+</head>
+<body style="padding-bottom: 100px;">
+    <!-- soo the grid applied on the parent container  -->
+    <!-- another property decides the width of the inner container within the parent container , as the div is the block element , apply this property changes in into inline-block   -->
+    <!-- IMP NOTE : BY applying the heigth of the inner container becomes dynamic in nature , if the container of the one of inner container exceed then the heigth of the another inner container becomes same of that another -->
+    <div style="display: grid;
+            grid-template-columns: 100px 100px;" >
+
+        <!-- this type of styling is called as inline style , generally we don't use this type -->
+        <div style="background-color: lightblue;">div1</div>
+        <div style="background-color: lightpink;">div2
+            <p>Text in 2nd container </p>
+        </div>
+    </div>
+    <div style="display: grid;
+            grid-template-columns: 100px 100px 200px ;
+            /* number of columns it means there should that number of inner div */
+            margin-top: 5px;" >
+
+        <div style="background-color: lightblue;">div1</div>
+        <div style="background-color: lightpink;">div2
+            <p>Text in 2nd container </p>
+        </div>
+        <div style="background-color: lightblue;">div1</div>
+        <div style=" background-color: lightpink;
+        display: block;">div4
+        </div>
+        <!-- here we are using 4th div  -->
+         <!-- IMP NOTE : Soo when the number of div is more than muner of columns width mentioned in the styling the extra div goes on the next line -->
+    </div>
+    <div style="
+             margin-top: 10px;
+            display: grid;
+            grid-template-columns: 100px 1fr;" >
+            <!-- fr = free space  -->
+        <div style="background-color: lightblue;">div1</div>
+        <div style="background-color: lightpink;">div2
+            <p>Text in 2nd container </p></div>
+    </div>
+    <div style="
+             margin-top: 10px;
+            display: grid;
+            grid-template-columns: 100px 1fr 1fr;" >
+            <!-- it will equally divides the second space between 2 divs -->
+        <div style="background-color: lightblue;">div1</div>
+        <div style="background-color: lightpink;">div2
+            <p>Text in 2nd container </p></div>
+        <div style="background-color: rgb(154, 28, 47);">div3
+            <p>Text in 2nd container </p></div>
+    </div>
+
+ 
+</div>
+
+</body>
+</html>
