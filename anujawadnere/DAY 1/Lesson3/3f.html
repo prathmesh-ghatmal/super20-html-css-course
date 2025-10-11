@@ -1,0 +1,63 @@
+<style>
+  .amazon
+  {
+    color:rgb(0,113,133);
+  }
+  .instock{
+    color:green;
+  }
+  .addtocart-button
+  {
+    background-color:rgb(255, 216, 20);
+    color:black;
+    height:36px;
+    width:100px;
+    border-radius: 18px;
+    border:none;
+    cursor:pointer;
+    transition:opacity 1s;
+  }
+  .addtocart-button:hover
+    {
+      background-color:rgba(238, 219, 4, 0.993);
+     opacity:0.8;/*when we decreaase the opacity the elements start to fade ..they get lighter n lighter*/
+/*opacity is used to fade out an element*/
+    }
+.addtocart-button:active 
+    {
+     opacity:0.5; /*when we hover n click the button gets lighter*/
+    }
+  .Buynow-button
+  {
+    background-color:rgb(255, 164, 28);
+    color:black;
+    height:36px;
+    width:74px;
+    border-radius: 18px;
+    border:none;
+    cursor:pointer;
+    transition:opacity 1s;
+  }
+  .Buynow-button:hover
+    {
+      background-color:rgba(238, 219, 4, 0.993);
+     opacity:0.8;/*when we decreaase the opacity the elements start to fade ..they get lighter n lighter*/
+/*opacity is used to fade out an element*/
+    }
+.Buynow-button:active 
+    {
+     opacity:0.5; /*when we hover n click the button gets lighter*/
+    }
+</style>
+<a href="https://www.amazon.in/" target="_blank" class="amazon">Back to Amazon</a>
+<p><b>Nike Black Running Shoes</b></p>
+<p class="instock">$39-in stock.</p>
+<p>Free delivery tomorrow.</p>
+
+<button class="addtocart-button">
+  Add to Cart
+</button>
+
+<button class="Buynow-button">
+  Buy now
+</button>
