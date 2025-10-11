@@ -4,14 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ex:10d</title>
+    <title>Ex:11d</title>
     <style>
+        .row{
+            display: grid;
+            grid-template-columns: 160px 160px 160px ;
+            column-gap:10px ;
+        }
         .friend-req {
             height: 280px;
             width: 160px;
             border: 1px solid grey;
             box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
-            display: inline-block;
             margin-left: 5px;
 
         }
@@ -36,8 +40,8 @@
             font-size: 14px;
             color: rgb(101, 97, 97);
             margin-left: 4px;
-            display: inline-block;
-            
+            /* display: inline-block; */
+
         }
 
         .conn-btn {
@@ -58,40 +62,49 @@
             margin-top: 7px;
             margin-bottom: 7px;
             margin-left: 4px;
-
-
         }
+        .mutual-sec{
+            display: grid;
+            grid-template-columns: 40px 1fr ;
+            align-items:center ;
+            column-gap: 6px;
+        }
+
+
     </style>
 </head>
 
 <body>
-    <div class="friend-req">
-        <img class='img-sec' src="cat.jpg" alt="">
-        <p class="heading">Oliver</p>
-        <div class="mutual-sec">
-            <img class="mutual-pic" src="cat.jpg" alt="">
-            <p class="connection">2 Mutual friends</p>
+    <div class="row">
+        <div class="friend-req">
+            <img class='img-sec' src="cat.jpg" alt="">
+            <p class="heading">Oliver</p>
+            <div class="mutual-sec">
+                <img class="mutual-pic" src="cat.jpg" alt="">
+                <p class="connection">2 Mutual friends</p>
+            </div>
             <button class="conn-btn">Add Friend</button>
         </div>
-    </div>
-    <div class="friend-req">
-        <img class='img-sec' src="cat.jpg" alt="">
-        <p class="heading">Oliver</p>
-        <div class="mutual-sec">
-            <img class="mutual-pic" src="cat.jpg" alt="">
-            <p class="connection">2 Mutual friends</p>
+          <div class="row">
+        <div class="friend-req">
+            <img class='img-sec' src="cat.jpg" alt="">
+            <p class="heading">Oliver</p>
+            <div class="mutual-sec">
+                <img class="mutual-pic" src="cat.jpg" alt="">
+                <p class="connection">2 Mutual friends</p>
+            </div>
             <button class="conn-btn">Add Friend</button>
         </div>
-    </div>
-    <div class="friend-req">
-        <img class='img-sec' src="cat.jpg" alt="">
-        <p class="heading">Oliver</p>
-        <div class="mutual-sec">
-            <img class="mutual-pic" src="cat.jpg" alt="">
-            <p class="connection">2 Mutual friends</p>
+          <div class="row">
+        <div class="friend-req">
+            <img class='img-sec' src="cat.jpg" alt="">
+            <p class="heading">Oliver</p>
+            <div class="mutual-sec">
+                <img class="mutual-pic" src="cat.jpg" alt="">
+                <p class="connection">2 Mutual friends</p>
+            </div>
             <button class="conn-btn">Add Friend</button>
         </div>
-    </div>
 
 </body>
 
