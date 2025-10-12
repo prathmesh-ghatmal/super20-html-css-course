@@ -1,0 +1,23 @@
+<style>
+p
+{
+font-family:'Montserrat',sans-serif;
+text-align:center;
+}
+.model
+{
+  color:black;
+  font-weight: bold;
+  font-size:50px;
+  margin-left:240px
+}
+.order{
+  cursor:pointer;
+  margin-left: 210px;
+  margin-top: -40px;
+}
+.td
+{
+  text-decoration:underline;
+}
+</style>
