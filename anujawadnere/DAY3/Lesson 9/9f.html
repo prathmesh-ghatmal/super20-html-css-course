@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>9f - Profile Card</title>
+    <style>
+      /* --- CSS STYLES GO HERE --- */
+      .profile{
+        width: 250px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Soft shadow for a raised effect */
+        border-radius: 4px; /* Slight rounding of the corners */
+        overflow: hidden; /* Ensures the image respects the border-radius */
+        font-family: Arial, sans-serif;
+        background-color: white; /* Ensures the bottom section is white */
+      }
+
+      .card-image {
+        /* Makes the image fill the top width of the card */
+        width: 100%;
+        /* You'll need to set the image source in the HTML */
+      }
+
+      .card-info {
+        padding: 10px;
+      }
+
+      .name {
+        font-size: 16px;
+        font-weight: bold;
+        margin-top: 0;
+        margin-bottom: 5px; /* Space below the name */
+      }
+
+      .mutual-friends {
+        font-size: 14px;
+        color: gray;
+        margin-top: 0;
+        margin-bottom: 15px; /* Space above the button */
+      }
+
+      .add-button {
+        background-color: rgb(77, 128, 201); /* Blue color */
+        color: white;
+        border: none;
+        padding: 8px 15px;
+        border-radius: 3px;
+        font-size: 14px;
+        cursor: pointer;
+      }
+    </style>
+</head>
+<body>
+
+  <div class="profile">
+    <img class="card-image" src="thumbnails/cat.jpg">
+    
+    <div class="card-info">
+      <p class="name">Oliver</p>
+      <p class="mutual-friends">2 mutual friends</p>
+      <button class="add-button">Add Friend</button>
+    </div>
+  </div>
+
+</body>
+</html>
