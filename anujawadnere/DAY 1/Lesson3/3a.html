@@ -1,0 +1,28 @@
+<style>
+.requestnow-button
+{
+  background-color:rgb(0, 0, 0);
+    color:white; /*To Make the Text Subsscribe turn into white color*/
+    border: none; /*bcz before adding this border:none; we could see some bordr on subscribe button..to remove it this property:value; pair is used*/
+    height:36px; /* px here represents pixels*/
+    width:105px;
+    border-radius:2px;
+    cursor:pointer;
+    /*when we hover on subscribe button our mouse turns into a sort of hand 
+  this hand is called a pointer*/
+  margin-right:8px; /*to add space to the right of subscribe button margin is used*/
+  transition:opacity 1s;
+}
+.requestnow-button:hover
+    {
+     opacity:0.8;/*when we decreaase the opacity the elements start to fade ..they get lighter n lighter*/
+/*opacity is used to fade out an element*/
+    }
+.requestnow-button:active 
+    {
+     opacity:0.5; /*when we hover n click the button gets lighter*/
+    }
+</style>
+<button class="requestnow-button">
+  Request Now
+</button>
