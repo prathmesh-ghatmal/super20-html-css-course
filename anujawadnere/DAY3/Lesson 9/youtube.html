@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+  <title>YouTube.com Clone</title>
+<style>
+.thumbnail
+{
+  width:300px;
+  display:block;
+  /*height:300px;
+  /*object-fit:cover;*/ /* can do this also
+  */
+  /*object-position:right; /*left kiva rught portion ch disto fkt*/
+  /*object-fit:contain; 
+  border-width 2px;
+  border-style:solid;
+  border-color:red;*/
+}
+.search-bar
+{
+  display:block;
+
+}
+.video-title
+{
+  width:300px;
+}
+.video-preview
+{
+  width:300px;
+ vertical-align:top; /*var khali aslela button,image la align krto..yaat top,bottom,etc is there*/
+ display:inline-block; /*so that it does not take the entire line anymore*/
+margin-right:30px;
+}
+
+</style>
+  </head>
+  <body>
+    <input class="search-bar" type="text" placeholder="Search"> <!--creates textbox-->
+   
+  <div class="video-preview">
+     <img class="thumbnail"  src="thumbnails/thumbnail-1.webp">
+  <p class="video-title">
+    Talking Tech and AI with Google CEO Sundar Pichai!
+  </p>
+  <p class="video-author">
+    Marques Brownlee
+  </p>
+  <p class="video-stats">
+    3.4M views &#183; 6 months ago
+  </p>
+  </div>
+  <div class="video-preview">
+     <img class="thumbnail"  src="thumbnails/thumbnail-2.webp">
+  <p class="video-title">
+   
+Try Not To Laugh Challenge #9
+  </p>
+  <p class="video-author">
+Markiplier
+  </p>
+  <p class="video-stats">
+    19M views &#183; 4 years ago
+  </p>
+  </div>
+  </body>
+</html>

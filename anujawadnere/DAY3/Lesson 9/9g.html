@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>9g - Profile Cards Inline</title>
+    <style>
+      .profile{
+        width: 250px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        border-radius: 4px;
+        overflow: hidden;
+        font-family: Arial, sans-serif;
+        background-color: white;
+        
+        /* REQUIRED CHANGE 1: Puts the cards side-by-side */
+        display: inline-block; 
+        
+        /* REQUIRED CHANGE 2: Adds spacing between the cards */
+        margin-right: 15px; 
+      }
+
+      .card-image {
+        width: 100%;
+      }
+
+      .card-info {
+        padding: 10px;
+      }
+
+      .name {
+        font-size: 16px;
+        font-weight: bold;
+        margin-top: 0;
+        margin-bottom: 5px;
+      }
+
+      .mutual-friends {
+        font-size: 14px;
+        color: gray;
+        margin-top: 0;
+        margin-bottom: 15px;
+      }
+
+      .add-button {
+        background-color: rgb(77, 128, 201);
+        color: white;
+        border: none;
+        padding: 8px 15px;
+        border-radius: 3px;
+        font-size: 14px;
+        cursor: pointer;
+      }
+    </style>
+</head>
+<body>
+
+  <div class="profile">
+    <img class="card-image" src="thumbnails/cat.jpg">
+    
+    <div class="card-info">
+      <p class="name">Oliver</p>
+      <p class="mutual-friends">2 mutual friends</p>
+      <button class="add-button">Add Friend</button>
+    </div>
+  </div>
+
+  <div class="profile">
+    <img class="card-image" src="thumbnails/mimi.jpeg">
+    
+    <div class="card-info">
+      <p class="name">Mimi</p>
+      <p class="mutual-friends">3 mutual friends</p>
+      <button class="add-button">Add Friend</button>
+    </div>
+  </div>
+
+  <div class="profile">
+    <img class="card-image" src="thumbnails/rex.jpeg">
+    
+    <div class="card-info">
+      <p class="name">Rex</p>
+      <p class="mutual-friends">4 mutual friends</p>
+      <button class="add-button">Add Friend</button>
+    </div>
+  </div>
+
+</body>
+</html>

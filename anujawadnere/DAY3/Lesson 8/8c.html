@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+  <title>Textbox</title>
+
+<style>
+.search-bar
+{
+  /* ... existing styles ... */
+  width: 400px; 
+  /* ... existing styles ... */
+  
+  /* NEW STYLES for Centering */
+  display: block; /* Required for margin: auto to work */
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px; /* Add some space below the logo */
+  font-size:20px;
+  color:gray;
+  border-color:rgb(201, 197, 197);
+  width:400px;
+  height:36px;
+ border-radius:20px;
+ box-shadow: 5px 5px 10px 2px rgba(255, 252, 252, 0.5);
+}
+
+.thumbnail
+{
+  /* NEW STYLES for Centering */
+  display: block; /* Required for margin: auto to work */
+  margin-left: auto;
+  margin-right: auto;
+  
+  /* Removed fixed margin-left: 400px; */
+  margin-bottom: 70px;
+}
+
+</style>
+  </head>
+  <body>
+<img class="thumbnail" src= "thumbnails/google.png">
+  <input class="search-bar" type="text" placeholder="Search Google or type a URL"> <!--creates textbox-->
+  
+  
+  </body>
+</html>
