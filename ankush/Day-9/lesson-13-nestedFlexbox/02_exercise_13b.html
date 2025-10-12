@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex 13b</title>
+</head>
+<style>
+    .main-container{
+        display: flex;
+        height: 50px;
+    }
+    .item1{
+        background-color: lightpink;
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .item2{
+        background-color: lightblue;
+        width: 200px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .inner2-second{
+        align-self: center;
+    }
+    .change-color{
+        background-color: black;
+        color: white;
+    }
+</style>
+<body>
+    <div class="main-container">
+        <div class="item1">
+            <DIV class="inner-div">ITEM 1 </DIV> </div>
+        <div class="item2">
+            <div class="inner2-first">
+                <div>row1</div>
+                <div class="change-color">row2</div>
+            </div>
+            <div class="inner2-second change-color">row2</div>
+        </div>
+    </div>
+</body>
+</html>

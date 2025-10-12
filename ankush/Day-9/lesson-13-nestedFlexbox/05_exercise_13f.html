@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex 13f</title>
+    <style>
+        .main-container {
+            padding: 5px;
+            border: 1px solid rgb(161, 159, 159);
+         box-shadow: 4px 4px 4px 5px rgba(96, 96, 96, 0.2);
+            
+            width: 500px;
+        }
+
+        .title {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: normal;
+        }
+
+        .main-container-msg {
+            margin-top: 5px;
+            display: flex;
+            /* box-shadow: 5px 5px 15px 5px rgba(96, 96, 96, 0.2); */
+            width: 500px;
+            justify-content: space-between;
+            /* margin-bottom: 10px; */
+        }
+
+        .img-sec {
+            height: 100%;
+            border: none;
+            display: flex;
+        }
+
+        .first-pic {
+            margin-top: 18px;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+        }
+
+        .info-sec {
+            flex: 1;
+            padding: 20px;
+        }
+
+        .name {
+            font-size: 18px;
+        }
+
+        .grey {
+            color: grey;
+        }
+
+        .below-sec {
+            border: 1px solid black;
+            width: 300px;
+            display: flex;
+            margin-left: 100px;
+            align-items: center;
+            height: 100px;
+            border-radius: 11px;
+            /* justify-content: space-between; */
+        }
+
+        .youtube-sec {
+            height: 100px;
+            width: 40%;
+        }
+        .grey-inside{
+            height: 100%;
+            width: 100%;
+            border-radius: 10px 0px 0px 10px ;
+            background-color: grey;
+        }
+
+        .youtube-pic {
+            width: 100px;
+            height: 100%;
+        }
+        .youtube-desc{
+            padding-left: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="main-container-msg">
+            <div class="img-sec">
+                <img class="first-pic" src="cat.jpg" alt="">
+            </div>
+            <div class="info-sec">
+                <div class="name">supersimple.dev <span class="grey">@SuperSimpleDev</span></div>
+                <div class="desc">What is backend web development? A complete overview. New video is up!</div>
+            </div>
+        </div>
+        <div class="below-sec">
+            <div class="youtube-sec">
+                <div class="grey-inside" ></div>
+            </div>
+            <div class="youtube-desc">
+                <div class="website-name">youtube.com</div>
+                <div class="video-name">Backend web development - a complete overview &#40; 2022 &#41; </div>
+            </div>
+        </div>
+
+    </div>
+    </div>
+</body>
+
+</html>
