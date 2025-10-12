@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex 12g</title>
+    <style>
+        .main-container{
+            display: flex;
+            box-shadow: 5px 5px 15px 5px rgba(96, 96 , 96,0.2);
+            width: 500px;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+        .img-sec{
+            height: 100%;
+            border: none;
+            display: flex;
+        }
+        img{
+            margin-top: 18px;
+            width: 60px ; 
+            height: 60px ;
+            border-radius: 50%;
+        }
+        .info-sec{
+            flex : 1 ;
+            padding: 20px;
+        }
+        .name{
+            font-size: 18px;
+        }
+        .desc,.status{
+            color: grey;
+        }
+        .btn-sec{
+            /* justify-self: end; */
+            align-self: center;
+            width: 100px;
+            padding-right: 4px;
+        }
+        button{
+            height: 40px;
+            width: 90px;
+            font-size: 16px;
+            background-color: rgb(54, 126, 235);
+            color: white;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <div class="img-sec">
+            <img src="cat.jpg" alt="">
+        </div>
+        <div class="info-sec">
+            <div class="name">Oliver</div>
+            <div class="desc">The cat</div>
+            <div class="status">Popular</div>
+        </div>
+        <div class="btn-sec">
+            <button>Follow</button>
+        </div>
+    </div>
+    <div class="main-container">
+        <div class="img-sec">
+            <img src="cat.jpg" alt="">
+        </div>
+        <div class="info-sec">
+            <div class="name">Oliver</div>
+            <div class="desc">The cat</div>
+            <div class="status">Popular</div>
+        </div>
+        <div class="btn-sec">
+            <button>Follow</button>
+        </div>
+    </div>
+    <div class="main-container">
+        <div class="img-sec">
+            <img src="cat.jpg" alt="">
+        </div>
+        <div class="info-sec">
+            <div class="name">Oliver</div>
+            <div class="desc">The cat</div>
+            <div class="status">Popular</div>
+        </div>
+        <div class="btn-sec">
+            <button>Follow</button>
+        </div>
+    </div>
+</body>
+</html>
