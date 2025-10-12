@@ -1,0 +1,33 @@
+.google-button {
+    background-color: rgb(245, 245, 245);
+    border: none;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.google-button2 {
+    background-color: rgb(245, 245, 245);
+    border: none;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.google-button {
+    margin-right: 200px;
+}
+
+.google-logo {
+    width: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+div {
+    text-align: center;
+}
