@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bootstrap Buttons</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body { background: #f8f9fa; padding: 1.5rem; }
+    .btn-yellow { background: rgb(255,216,20); color: #000; font-weight: 500; }
+    .btn-yellow:hover { background: rgb(245,200,10); }
+    .btn-orange { background: rgb(255,164,28); color: #000; font-weight: 500; }
+    .btn-orange:hover { background: rgb(245,140,0); }
+    .btn-green { background: rgb(46,164,79); color: #fff; font-weight: 600; }
+    .btn-purple { background: rgb(121,82,179); color: #fff; }
+    .btn-blue { background: rgb(10,102,194); color: #fff; }
+    .product-card { width: 280px; background: #fff; padding: 1rem; border: 1px solid #dee2e6; border-radius: .5rem; }
+  </style>
+</head>
+
+<body>
+  <h3>LEsson 2 Exercises- CSS Basics</h3>
+  <!-- Buttons -->
+  <div class="d-flex flex-wrap gap-2">
+    <h4>2a.UBer</h4>
+    <button class="btn border border-2 border-dark text-white bg-dark fw-semibold">Request now</button>
+    <h4>2b.Amazon</h4>
+    <button class="btn btn-yellow">Add to Cart</button>
+    <h4>2c.Github</h4>
+    <button class="btn btn-green">Sign up</button>
+    <h4>2d.bootstrap</h4>
+    <button class="btn btn-purple">Get started</button>
+    <button class="btn  border-dark text-dark bg-white">Download</button>
+    <h4>2e.LInkedIn</h4>
+    <button class="btn btn-blue">Apply on company website</button>
+    <button class="btn border border-primary text-primary">Save</button>
+  </div>
+
+  <!-- Product Card -->
+   <h4>2f.Continuing from exercise 1g. recreate this design using css</h4>
+  <div class="product-card mt-4">
+    <a href="#" class="text-decoration-none" style="color:rgb(0,113,133);">Back to Amazon</a>
+    <h6 class="mt-2 mb-1 fw-semibold">Nike Black Running Shoes</h6>
+    <p class="text-success mb-0">$39 - in stock.</p>
+    <p class="mb-2">Free delivery tomorrow.</p>
+    <button class="btn btn-sm btn-yellow">Add to Cart</button>
+    <button class="btn btn-sm btn-orange">Buy now</button>
+  </div>
+
+</body>
+</html>
