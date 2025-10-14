@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex 15d</title>
+</head>
+<style>
+    .main-container{
+        position: relative;
+        height: 220px;
+        width: 420px;
+        position: fixed;
+        bottom: 10px;
+        right: 5px;
+        /* background-color: red; */
+    }
+    .grey-sec {
+        height: 200px;
+        width: 400px;
+        position: fixed;
+        bottom: 10px;
+        right: 5px;
+        background-color: grey;
+        z-index: 0 ;
+    }
+
+    .cross-btn {
+        height: 50px;
+        width: 50px;
+        background-color: black;
+        border: none;
+        border-radius: 50px;
+        font-size: 30px;
+        color: white;
+        position: absolute;
+        z-index: 1;
+
+
+    }
+    .time{
+        height: 20px;
+        width: 30px;
+        color: white;
+        background-color: black;
+        position : absolute;
+        bottom:2px ;
+        right: 4px;
+        padding-left: 2px;
+
+    }
+</style>
+<body>
+    <div class="main-container">
+        <button class="cross-btn">X</button>
+        <div class="grey-sec"></div>
+        <div class="time">0.29</div>
+    </div>
+</body>
+</body>
+</html>
