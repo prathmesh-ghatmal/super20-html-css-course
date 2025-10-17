@@ -1,0 +1,17 @@
+.image{
+    display: block;
+    margin-bottom: 5px;
+}
+.text1{
+         display: block;
+            width:350px;
+            height:40px;
+            font-size: 15px;
+            /* font-weight: bold*/
+            box-shadow:5px 5px 10px rgba(0,0,0,00.15);
+            border-radius: 20px;
+            border: 0px;
+            vertical-align: center ;
+        
+
+}
