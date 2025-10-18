@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Profile Cards Inline</title>
+    <style>
+      /* Container for all profiles (optional, for better layout) */
+      body {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px; /* spacing between cards */
+        padding: 20px;
+        background-color: #f0f0f0; /* optional background */
+        font-family: Arial, sans-serif;
+      }
+
+      /* Individual profile card styles */
+      .profile {
+        width: 250px;
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+        transition: box-shadow 0.3s;
+      }
+
+      .profile:hover {
+        box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+      }
+
+      /* Profile picture styles */
+      .card-image {
+        width: 100%;
+        height: 200px;
+        object-fit:cover;
+        display: block;
+      }
+
+      /* Info section styles */
+      .card-info {
+        padding: 10px;
+      }
+
+      /* Name styles */
+      .name {
+        font-size: 16px;
+        font-weight: bold;
+        margin: 0 0 5px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      /* Mutual friends section */
+      .mutual-friends {
+        font-size: 14px;
+        color: #555;
+        display: flex;
+        align-items: center;
+        margin: 0 0 10px 0;
+      }
+
+      /* Mutual friends icon */
+      .mutual-icon {
+        width: 20px;
+        height: 20px;
+        margin-right: 8px;
+      }
+
+      /* Add Friend button styles */
+      .add-button {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        padding: 8px 12px;
+        border-radius: 4px;
+        font-size: 14px;
+        cursor: pointer;
+        width: 100px;
+        transition: background-color 0.3s;
+      }
+
+      .add-button:hover {
+        background-color: #0069d9;
+      }
+    </style>
+</head>
+<body>
+
+  <!-- Profile Card 1 -->
+  <div class="profile">
+    <img class="card-image" src="thumbnails/cat.jpg" alt="Oliver">
+    <div class="card-info">
+      <div class="name">
+        <span>Oliver</span>
+      </div>
+      <div class="mutual-friends">
+        <img src="thumbnails/rexb.jpeg" class="mutual-icon" alt="Mutual Friends Icon" />
+        2 mutual friends
+      </div>
+      <button class="add-button">Add Friend</button>
+    </div>
+  </div>
+
+  <!-- Profile Card 2 -->
+  <div class="profile">
+    <img class="card-image" src="thumbnails/mimi.jpeg" >
+    <div class="card-info">
+      <div class="name">
+        <span>Mimi</span>
+      </div>
+      <div class="mutual-friends">
+        <img src="thumbnails/rexb.jpeg" class="mutual-icon" />
+        3 mutual friends
+      </div>
+      <button class="add-button">Add Friend</button>
+    </div>
+  </div>
+
+  <!-- Profile Card 3 -->
+  <div class="profile">
+    <img class="card-image" src="thumbnails/rex.jpeg" alt="Rex">
+    <div class="card-info">
+      <div class="name">
+        <span>Rex</span>
+      </div>
+      <div class="mutual-friends">
+        <img src="thumbnails/rexb.jpeg" class="mutual-icon" alt="Mutual Friends Icon" />
+        4 mutual friends
+      </div>
+      <button class="add-button">Add Friend</button>
+    </div>
+  </div>
+
+</body>
+</html>
