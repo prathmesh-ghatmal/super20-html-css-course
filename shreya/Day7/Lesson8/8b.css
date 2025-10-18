@@ -1,0 +1,11 @@
+.question,.yes,.no{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: large;
+    
+}
+
+.question{
+    width: 200px;
+}
+

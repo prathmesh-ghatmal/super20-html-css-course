@@ -1,0 +1,25 @@
+In CSS there is a property which decides how the elements will be displayed on the page.
+There are some elemnents wich takle whole line or whole block to themselves.(paragraph tag)
+ANd some which only take the space that is required. (image,text box,button)
+But these are their own charecteristics.
+
+So the display properties are as follows:
+display : block
+Elements with display: block start on a new line and take up the full available width of their parent container.
+They stack vertically, one after another.
+You can set width, height, margin (all four sides), and padding (all four sides) for block-level elements.
+Examples of default block-level elements include <div>, <p>, <h1> to <h6>, and <ul>.
+
+display: inline:
+Elements with display: inline do not start on a new line and only occupy the width necessary for their content.
+They flow horizontally within the same line as surrounding content.
+You cannot effectively set width or height for inline elements, and top/bottom margin and padding will not affect the layout of surrounding elements.
+Examples of default inline elements include <span>, <a>, <strong>, and <em>.
+
+
+display: inline-block:
+Elements with display: inline-block combine characteristics of both block and inline elements.
+Like inline elements, they do not start on a new line and flow horizontally with other content.
+Like block elements, you can set width, height, margin (all four sides), and padding (all four sides) for inline-block elements, and these properties will be respected and affect the layout of surrounding elements.
+This value provides more control over the dimensions and spacing of elements while still allowing them to appear on the same line.
+
