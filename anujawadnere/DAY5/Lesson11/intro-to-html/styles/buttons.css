@@ -1,0 +1,38 @@
+.subscribe-button{
+    background-color:rgb(200, 0, 0);
+    color:white; /*To Make the Text Subsscribe turn into white color*/
+    border: none; /*bcz before adding this border:none; we could see some bordr on subscribe button..to remove it this property:value; pair is used*/
+    height:36px; /* px here represents pixels*/
+    width:105px;
+    border-radius:2px;
+    cursor:pointer;
+    /*when we hover on subscribe button our mouse turns into a sort of hand 
+  this hand is called a pointer*/
+  margin-right:8px; /*to add space to the right of subscribe button margin is used*/
+    }
+    .join-button{ /*class ahe ha*/
+       background-color:rgb(255,255, 255); 
+      /*you can set rgb like this or directly write white*/
+      border-color:rgb(55, 125, 246);
+       border-style:solid; /*to make border jaad*/
+       color:blue; /*to set text color this property is therre*/
+       border-radius:2px;
+       height:36px;
+       width:62px;
+       border-width:1px; /*another way did was border:1px solid;*/
+       cursor:pointer;
+       margin-right:8px;
+    }
+    .tweet-button{
+      background-color:rgb(64, 128, 246);
+      color:white;
+      border:none;
+      height:36px;
+      width:74px;
+      border-radius:18px; /*whenever want ellipse shape border radius is 50%.As we keep on 
+      increasing px the border gets shrinking in forming ellipse */
+      /*Another way is to set the border radius to half of height or weight whichever is lower*/
+      font-weight:bold; /*tweet text is bold so this*/
+      font-size:15px;
+      cursor:pointer;
+    }

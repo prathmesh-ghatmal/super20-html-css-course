@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Profile Cards Grid</title>
+  <style>
+    body {
+      background-color: rgb(247, 243, 243);
+      color: rgb(17, 15, 15);
+      font-family: Arial;
+      padding: 20px;
+    }
+
+    /* 3-column grid */
+    .container {
+      display: grid;
+     grid-template-columns: 250px 250px 250px;
+
+      gap: 10px;
+      align-items: center;
+      justify-items: center;
+    }
+
+    /* Profile card */
+    .card {
+      background-color: white;
+      color: black;
+      width: 250px;
+      border-radius: 8px;
+      overflow: hidden;
+      text-align: left;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    }
+
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .info {
+      padding: 10px;
+    }
+
+    .name {
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .friends {
+      font-size: 14px;
+      color: gray;
+      margin-bottom: 10px;
+    }
+
+    .friends img {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      vertical-align: middle;
+      margin-right: 6px;
+    }
+
+    button {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      padding: 8px;
+      border-radius: 4px;
+      width: 100%;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #0069d9;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Profile Grid</h2>
+
+  <div class="container">
+    <div class="card">
+      <img src="thumbnails/cat.jpg" alt="Oliver">
+      <div class="info">
+        <div class="name">Oliver</div>
+        <div class="friends">
+          <img src="thumbnails/rexb.jpeg" >2 mutual friends
+        </div>
+        <button>Add Friend</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="thumbnails/mimi.jpeg" >
+      <div class="info">
+        <div class="name">Mimi</div>
+        <div class="friends">
+          <img src="thumbnails/rexb.jpeg">3 mutual friends
+        </div>
+        <button>Add Friend</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="thumbnails/rex.jpeg" >
+      <div class="info">
+        <div class="name">Rex</div>
+        <div class="friends">
+          <img src="thumbnails/rexb.jpeg" >4 mutual friends
+        </div>
+        <button>Add Friend</button>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+  Flexbox Practice
+</title>
+<style>
+.nav-bar {
+  display: flex;
+  align-items: center;
+  background-color:rgb(77, 1, 135);
+  padding: 10px;
+  border-radius: 12px;
+  width: 600px;
+  font-family: sans-serif;
+  gap: 10px;
+}
+
+.home-btn {
+  background: rgb(77, 1, 135);
+  color: white;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.search-input {
+  flex: 1;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 15px;
+  font-size: 14px;
+  color:rgb(141, 34, 194);
+}
+
+.download-btn {
+  background: rgb(77, 1, 135);
+  color: white;
+  border: 2px solid white;
+  padding: 8px 20px;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+</style>
+</head>
+<body>
+<div class="nav-bar">
+  <button class="home-btn">Home</button>
+  <input class="search-input" type="text" placeholder="Search">
+  <button class="download-btn">Download</button>
+</div>
+
+
+</body>
+</html>
