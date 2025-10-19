@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>
+  Flexbox Practice
+</title>
+<style>
+.user-list {
+  font-family: sans-serif;
+  width: 350px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.user:last-child {
+  margin-bottom: 0;
+}
+
+.user img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.user-info {
+  flex: 1;
+}
+
+.user-info strong {
+  display: block;
+  font-size: 16px;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #555;
+}
+
+.popular {
+  font-size: 12px;
+  color: gray;
+}
+
+.follow-button {
+  background: #3b82f6;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+
+</style>
+</head>
+<body>
+<div class="user-list">
+  <div class="user">
+    <img src="thumbnails/cat.jpg">
+    <div class="user-info">
+      <strong>oliver</strong>
+      <div class="subtitle">the cat</div>
+      <div class="popular">Popular</div>
+    </div>
+    <button class="follow-button">Follow</button>
+  </div>
+
+  <div class="user">
+    <img src="thumbnails/mimi.jpeg">
+    <div class="user-info">
+      <strong>Mimi</strong>
+      <div class="subtitle">Sleepy Cat</div>
+      <div class="popular">Popular</div>
+    </div>
+    <button class="follow-button">Follow</button>
+  </div>
+
+  <div class="user">
+    <img src="thumbnails/rexb.jpeg">
+    <div class="user-info">
+      <strong>Rex</strong>
+      <div class="subtitle">Happy Bulldog</div>
+      <div class="popular">Popular</div>
+    </div>
+    <button class="follow-button">Follow</button>
+  </div>
+</div>
+
+</body>
+</html>
