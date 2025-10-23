@@ -1,0 +1,8 @@
+There a re 2 types of layout:
+Vertical Layout:
+Items are stacked upon each other.
+Horizontal Layout:
+Items are besides each other.
+
+USing the combination we can build anything. This is called nested layouts.
+Font stack
