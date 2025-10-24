@@ -1,0 +1,61 @@
+.page{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main,.main1,.main2{
+    width:480px;
+    height:110px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main1{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.picture{
+    width:80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit:cover;
+    margin-top: 15px;
+    margin-left:10px;
+}
+
+.name,.subname,.designation{
+    font-size: 20px;
+    margin:0px;
+    margin-left: 15px;
+}
+
+.name{
+    font-weight:bold;
+    margin-top: 10px;
+
+}
+
+.subname{
+    margin-top:8px;
+    margin-bottom:8px;
+}
+
+.subname,.designation{
+    color: rgb(131, 125, 125);
+}
+
+
+
+.button{
+    color:white;
+    background-color: rgb(0, 162, 255);
+    border: none;
+    width:80px;
+    height:40px;
+    border-radius:5px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left:200px;
+}
+
