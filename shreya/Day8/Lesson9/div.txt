@@ -1,0 +1,7 @@
+Many successfull websites have div in their </code>
+
+Div is alos a block element like paragraph
+We can change the setting using display property
+We can put any other tag or element or anothher div inside the div.
+Basically <div> is a container which can contain anyting inside.
+l

@@ -5,6 +5,7 @@ But these are their own charecteristics.
 
 So the display properties are as follows:
 display : block
+They take up the entire line in their container.
 Elements with display: block start on a new line and take up the full available width of their parent container.
 They stack vertically, one after another.
 You can set width, height, margin (all four sides), and padding (all four sides) for block-level elements.
